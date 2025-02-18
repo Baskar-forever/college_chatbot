@@ -1,0 +1,3 @@
+langchain_community
+html2text
+bs4
