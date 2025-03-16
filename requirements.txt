@@ -1,3 +1,6 @@
-langchain_community
+langchain-community
 html2text
-bs4
+langchain_mistralai
+streamlit
+langchain_core
+python-dotenv
