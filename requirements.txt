@@ -1,0 +1,10 @@
+langchain-community
+html2text
+langchain_mistralai
+streamlit
+langchain_core
+requests
+beautifulsoup4
+lxml
+aiohttp
+pypdf
