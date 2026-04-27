@@ -66,7 +66,7 @@ class College:
         self.http_timeout = int(os.getenv("HTTP_TIMEOUT_SECONDS", "20"))
         self.http_session = self._build_http_session()
 
-        api_key = os.getenv("MISTRAL_API_KEY", "DhcEZgZeWxa3faXsxiCpETM8d66wqJQw")
+        api_key = os.getenv("MISTRAL_API_KEY", "")
         llm_config = dict(
             model="mistral-large-latest",
             temperature=0,
