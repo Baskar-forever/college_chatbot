@@ -1,0 +1,1103 @@
+2026-03-25 01:19:30,385 - INFO - Initializing College class...
+2026-03-25 01:19:30,462 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:19:58,385 - INFO - Initializing College class...
+2026-03-25 01:19:58,472 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:20:09,830 - INFO - Generating chatbot response for question: who is akiladeswari?
+2026-03-25 01:20:09,830 - INFO - Fetching top 3 URLs for question: who is akiladeswari?
+2026-03-25 01:20:09,841 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:20:09,988 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B7FBE95B0>
+2026-03-25 01:20:09,989 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020B7FC8E350> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:20:10,035 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B7FDE6A20>
+2026-03-25 01:20:10,036 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:10,036 - DEBUG - send_request_headers.complete
+2026-03-25 01:20:10,036 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:20:10,036 - DEBUG - send_request_body.complete
+2026-03-25 01:20:10,036 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:13,102 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:50:11 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2165-be02-7950-a3ec-6c41b60c7970'), (b'x-kong-request-id', b'019d2165-be02-7950-a3ec-6c41b60c7970'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29126'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2908897'), (b'x-ratelimit-tokens-query-cost', b'20874'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'2619'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2620'), (b'x-kong-proxy-latency', b'58'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=wxnlkHuTJVdkU5wnZ4uchZgM2OJ9gkLUUJarpOVVKjg-1774381808.9336803-1.0.1.1-0pdlWb2o3s6quQV2IaNfzK2u5QmWrq2LMEiLtEfyowVJhz0ehEdYgOdAWzcIJJdWw7_.Nv4UknLuFPPopNCmg6fUfOHGl7LhI8HXiCUBLOgT06gmCX9FDvhl5d7EPweQ; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:20:11 GMT'), (b'set-cookie', b'_cfuvid=6tmYQH4sykx6P1Js07VoJjqIrhY2.4Ey5Zjpk25p4aQ-1774381808.9336803-1.0.1.1-PkrYyB2wKJmwEcHJaujm8TlF2h0vL1.lKtyj1ORMbJU; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183401db18ba20-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:20:13,103 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:20:13,103 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:20:13,104 - DEBUG - receive_response_body.complete
+2026-03-25 01:20:13,104 - DEBUG - response_closed.started
+2026-03-25 01:20:13,104 - DEBUG - response_closed.complete
+2026-03-25 01:20:13,104 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/staff/']
+2026-03-25 01:20:13,106 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 01:20:14,189 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:20:14,206 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:20:15,306 - DEBUG - https://gacsalem7.ac.in:443 "GET /staff/ HTTP/1.1" 200 None
+2026-03-25 01:20:15,415 - INFO - Best matching image: []
+2026-03-25 01:20:15,417 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:15,418 - DEBUG - send_request_headers.complete
+2026-03-25 01:20:15,418 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:20:15,418 - DEBUG - send_request_body.complete
+2026-03-25 01:20:15,418 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:18,189 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:50:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2165-d2bf-7cb4-8f35-8eec501df875'), (b'x-kong-request-id', b'019d2165-d2bf-7cb4-8f35-8eec501df875'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'16387'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2896158'), (b'x-ratelimit-tokens-query-cost', b'12739'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2423'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2424'), (b'x-kong-proxy-latency', b'29'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1834238838ba20-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:20:18,189 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:20:18,190 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:20:18,190 - DEBUG - receive_response_body.complete
+2026-03-25 01:20:18,190 - DEBUG - response_closed.started
+2026-03-25 01:20:18,190 - DEBUG - response_closed.complete
+2026-03-25 01:20:41,188 - INFO - Initializing College class...
+2026-03-25 01:20:41,189 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:20:49,512 - INFO - Generating chatbot response for question: who is akilandeswari
+2026-03-25 01:20:49,512 - INFO - Fetching top 3 URLs for question: who is akilandeswari
+2026-03-25 01:20:49,514 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:20:49,604 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B7FB27F80>
+2026-03-25 01:20:49,604 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020B7FC8E350> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:20:49,645 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B74C9F380>
+2026-03-25 01:20:49,645 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:49,645 - DEBUG - send_request_headers.complete
+2026-03-25 01:20:49,645 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:20:49,647 - DEBUG - send_request_body.complete
+2026-03-25 01:20:49,647 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:52,260 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:50:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2166-58b3-7370-964b-c7de38ec2626'), (b'x-kong-request-id', b'019d2166-58b3-7370-964b-c7de38ec2626'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'0'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2875263'), (b'x-ratelimit-tokens-query-cost', b'20895'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'2204'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2205'), (b'x-kong-proxy-latency', b'27'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=wM7QhmNR1BWoFsIWUJ2ajFseg7A1ofuVWyvz.30w.PU-1774381848.5493844-1.0.1.1-3MG.MxjGFsBctdU4RX_JvO7SXSoGtvxcTB6fx9QHRj.nwWwhfWw9uwP.e4VcgB9qbQf8Ovcyt0wP0xN5Po2GFJCaotnNCt13m5R7rw6T73kqZDCQW0ytGCXfE0f8cSec; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:20:51 GMT'), (b'set-cookie', b'_cfuvid=oswNA0qf0is2lJDSXn1XU8Y7XhdOD3Rp6GgWTHD.UFI-1774381848.5493844-1.0.1.1-26KJ9ghbcwBpYVpncwyACGAfhv2PhddE.0Irh92n7wU; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1834f96955802c-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:20:52,261 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:20:52,261 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:20:52,265 - DEBUG - receive_response_body.complete
+2026-03-25 01:20:52,265 - DEBUG - response_closed.started
+2026-03-25 01:20:52,265 - DEBUG - response_closed.complete
+2026-03-25 01:20:52,266 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-Dr.K.Akilandeswari.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 01:20:52,267 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 01:20:53,349 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:20:53,365 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/K.AKILANDESWARI-300x300.jpg', 'alt': 'K.AKILANDESWARI'}]
+2026-03-25 01:20:53,367 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:53,367 - DEBUG - send_request_headers.complete
+2026-03-25 01:20:53,367 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:20:53,367 - DEBUG - send_request_body.complete
+2026-03-25 01:20:53,367 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:20:53,699 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:50:52 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2166-66e2-7380-8c9d-52994e0947de'), (b'x-kong-request-id', b'019d2166-66e2-7380-8c9d-52994e0947de'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'0'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2875263'), (b'x-envoy-upstream-service-time', b'10'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'12'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e183510aaf9802c-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:20:53,699 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:20:53,700 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:20:53,700 - DEBUG - receive_response_body.complete
+2026-03-25 01:20:53,700 - DEBUG - response_closed.started
+2026-03-25 01:20:53,700 - DEBUG - response_closed.complete
+2026-03-25 01:20:53,700 - ERROR - Error in chatbot_response: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:21:06,194 - INFO - Initializing College class...
+2026-03-25 01:21:06,195 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:21:12,928 - INFO - Generating chatbot response for question: who is akilandeswari
+2026-03-25 01:21:12,928 - INFO - Fetching top 3 URLs for question: who is akilandeswari
+2026-03-25 01:21:12,930 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:21:12,974 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B74D1A690>
+2026-03-25 01:21:12,976 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020B7FC8E350> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:21:13,013 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020B0F066930>
+2026-03-25 01:21:13,013 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:13,014 - DEBUG - send_request_headers.complete
+2026-03-25 01:21:13,014 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:21:13,014 - DEBUG - send_request_body.complete
+2026-03-25 01:21:13,015 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:13,536 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:51:12 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2166-b438-7a16-83ed-7aeb6fd3ff76'), (b'x-kong-request-id', b'019d2166-b438-7a16-83ed-7aeb6fd3ff76'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'350'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2875263'), (b'x-envoy-upstream-service-time', b'19'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'20'), (b'x-kong-proxy-latency', b'58'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=L0424O.bydBDdLRcQvaaku5WZHCNFnxcu9JKA69dJZI-1774381871.9195824-1.0.1.1-OLsVqdWcKMep2ZoQ42NgfCGUN_wJveGUgiIvy1CrYNXeFhFOmkLKwH42nF0U6qng9TGGdzT2HeE.1J1DFxjFWxbauBtHCdAfG8A2mzYWYSJv01KNBzGOTGTasuXAi.Uv; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:21:12 GMT'), (b'set-cookie', b'_cfuvid=afFWbEWNQQlnl6G6PUXcKBdiWMgF4lVQRpV3GL5Ylhw-1774381871.9195824-1.0.1.1-zSUVuyAXn_4DauUCAGULZTMX9k5N2smstofYtEXWUuo; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'CF-RAY', b'9e18358b7b913971-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:21:13,536 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:21:13,536 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:21:13,537 - DEBUG - receive_response_body.complete
+2026-03-25 01:21:13,537 - DEBUG - response_closed.started
+2026-03-25 01:21:13,537 - DEBUG - response_closed.complete
+2026-03-25 01:21:13,537 - WARNING - Attempt 1/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:21:13,539 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:13,539 - DEBUG - send_request_headers.complete
+2026-03-25 01:21:13,539 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:21:13,543 - DEBUG - send_request_body.complete
+2026-03-25 01:21:13,543 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:13,921 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:51:12 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2166-b5be-771f-a857-07c72c68fb55'), (b'x-kong-request-id', b'019d2166-b5be-771f-a857-07c72c68fb55'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'673'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2875263'), (b'x-envoy-upstream-service-time', b'15'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'16'), (b'x-kong-proxy-latency', b'58'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e18358ecc423971-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:21:13,922 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:21:13,922 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:21:13,922 - DEBUG - receive_response_body.complete
+2026-03-25 01:21:13,922 - DEBUG - response_closed.started
+2026-03-25 01:21:13,922 - DEBUG - response_closed.complete
+2026-03-25 01:21:13,922 - WARNING - Attempt 2/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:21:13,925 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:13,925 - DEBUG - send_request_headers.complete
+2026-03-25 01:21:13,925 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:21:13,928 - DEBUG - send_request_body.complete
+2026-03-25 01:21:13,928 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:21:14,334 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:51:13 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2166-b758-7d0f-894b-753b09c92253'), (b'x-kong-request-id', b'019d2166-b758-7d0f-894b-753b09c92253'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'1014'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2875263'), (b'x-envoy-upstream-service-time', b'16'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'17'), (b'x-kong-proxy-latency', b'58'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e1835915ca53971-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:21:14,334 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:21:14,334 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:21:14,334 - DEBUG - receive_response_body.complete
+2026-03-25 01:21:14,334 - DEBUG - response_closed.started
+2026-03-25 01:21:14,334 - DEBUG - response_closed.complete
+2026-03-25 01:21:14,335 - WARNING - Attempt 3/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:21:14,335 - ERROR - All attempts failed in get_top3_urls for question: who is akilandeswari
+2026-03-25 01:25:54,982 - INFO - Initializing College class...
+2026-03-25 01:25:55,076 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:26:02,333 - INFO - Generating chatbot response for question: who is akilandeswari
+2026-03-25 01:26:02,333 - INFO - Fetching top 3 URLs for question: who is akilandeswari
+2026-03-25 01:26:02,345 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:26:02,467 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F62FBBFE0>
+2026-03-25 01:26:02,467 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:26:02,502 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F79AC9880>
+2026-03-25 01:26:02,502 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:02,502 - DEBUG - send_request_headers.complete
+2026-03-25 01:26:02,503 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:26:02,503 - DEBUG - send_request_body.complete
+2026-03-25 01:26:02,503 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:06,508 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:56:05 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216b-1ed1-7e6a-929d-79442e2f2dcf'), (b'x-kong-request-id', b'019d216b-1ed1-7e6a-929d-79442e2f2dcf'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29105'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2854368'), (b'x-ratelimit-tokens-query-cost', b'20895'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'3499'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3500'), (b'x-kong-proxy-latency', b'27'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=egipKjEscg1WEXlnGj1c2YtrM.NBF_IPtYJtm3f9ZqY-1774382161.3874602-1.0.1.1-CZCEdl_eH2nJ76AEw08lBNOtK34.PC8cuV5Oqjxczcmyq17Jn1qbr4PM9nt1ila_3KV7g85OwUMmFvoOks7QvPMQCxA5RxccEP51nsbHHtOTSk5_CFYSfH8YXyHkMdMF; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:26:05 GMT'), (b'set-cookie', b'_cfuvid=DCl6_bH0yusse4pqg21D0iM4EP4AeeHm04EfkF7c0D4-1774382161.3874602-1.0.1.1-NqIusYSdnBb1Xl.Q2AbvYfYYZjEnq0IDVUBxbJ8W7LI; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183c9cab76c122-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:26:06,511 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:26:06,511 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:26:06,511 - DEBUG - receive_response_body.complete
+2026-03-25 01:26:06,511 - DEBUG - response_closed.started
+2026-03-25 01:26:06,511 - DEBUG - response_closed.complete
+2026-03-25 01:26:06,512 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-Dr.K.Akilandeswari.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 01:26:06,515 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 01:26:07,648 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:26:07,698 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/K.AKILANDESWARI-300x300.jpg', 'alt': 'K.AKILANDESWARI'}]
+2026-03-25 01:26:07,701 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:07,701 - DEBUG - send_request_headers.complete
+2026-03-25 01:26:07,701 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:26:07,701 - DEBUG - send_request_body.complete
+2026-03-25 01:26:07,701 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:10,508 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:56:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216b-32a4-7a61-9adb-f47907e96688'), (b'x-kong-request-id', b'019d216b-32a4-7a61-9adb-f47907e96688'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28400'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2853663'), (b'x-ratelimit-tokens-query-cost', b'705'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2480'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2481'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183cbd4a9ac122-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:26:10,508 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:26:10,508 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:26:10,509 - DEBUG - receive_response_body.complete
+2026-03-25 01:26:10,509 - DEBUG - response_closed.started
+2026-03-25 01:26:10,509 - DEBUG - response_closed.complete
+2026-03-25 01:26:32,492 - INFO - Generating chatbot response for question: what she is achived?
+2026-03-25 01:26:32,492 - INFO - Reformulating question based on chat history...
+2026-03-25 01:26:32,494 - DEBUG - close.started
+2026-03-25 01:26:32,496 - DEBUG - close.complete
+2026-03-25 01:26:32,496 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:26:32,564 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F60AE6EA0>
+2026-03-25 01:26:32,564 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:26:32,609 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F79AC8950>
+2026-03-25 01:26:32,611 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:32,611 - DEBUG - send_request_headers.complete
+2026-03-25 01:26:32,611 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:26:32,611 - DEBUG - send_request_body.complete
+2026-03-25 01:26:32,611 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:33,707 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:56:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216b-93fa-726f-bb80-3ae190820b7d'), (b'x-kong-request-id', b'019d216b-93fa-726f-bb80-3ae190820b7d'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28169'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2853432'), (b'x-ratelimit-tokens-query-cost', b'231'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'661'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'661'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183d58ecbca90b-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:26:33,707 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:26:33,708 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:26:33,708 - DEBUG - receive_response_body.complete
+2026-03-25 01:26:33,708 - DEBUG - response_closed.started
+2026-03-25 01:26:33,708 - DEBUG - response_closed.complete
+2026-03-25 01:26:33,708 - INFO - Original Question: what she is achived?
+2026-03-25 01:26:33,708 - INFO - Standalone Question: What are the key achievements of Dr. K. Akilandeswari?
+2026-03-25 01:26:33,708 - INFO - Fetching top 3 URLs for question: What are the key achievements of Dr. K. Akilandeswari?
+2026-03-25 01:26:33,709 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:33,711 - DEBUG - send_request_headers.complete
+2026-03-25 01:26:33,711 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:26:33,711 - DEBUG - send_request_body.complete
+2026-03-25 01:26:33,711 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:39,474 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:56:38 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216b-989e-7234-9a09-da705145721e'), (b'x-kong-request-id', b'019d216b-989e-7234-9a09-da705145721e'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'7265'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2832528'), (b'x-ratelimit-tokens-query-cost', b'20904'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'5166'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'5167'), (b'x-kong-proxy-latency', b'68'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183d5fcf7ca90b-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:26:39,476 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:26:39,476 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:26:39,476 - DEBUG - receive_response_body.complete
+2026-03-25 01:26:39,476 - DEBUG - response_closed.started
+2026-03-25 01:26:39,476 - DEBUG - response_closed.complete
+2026-03-25 01:26:39,477 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/09/MRP-Dr.A.Kangaiammal-Executive-Summary.pdf', 'https://gacsalem7.ac.in/awards/']
+2026-03-25 01:26:39,479 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:26:40,694 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:26:40,711 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:26:41,871 - DEBUG - https://gacsalem7.ac.in:443 "GET /awards/ HTTP/1.1" 200 None
+2026-03-25 01:26:41,886 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/K.AKILANDESWARI-300x300.jpg', 'alt': 'K.AKILANDESWARI'}]
+2026-03-25 01:26:41,888 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:41,888 - DEBUG - send_request_headers.complete
+2026-03-25 01:26:41,888 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:26:41,889 - DEBUG - send_request_body.complete
+2026-03-25 01:26:41,889 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:26:45,708 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:56:44 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216b-b83c-75d7-8a83-15616b54f383'), (b'x-kong-request-id', b'019d216b-b83c-75d7-8a83-15616b54f383'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5477'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2830740'), (b'x-ratelimit-tokens-query-cost', b'1788'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'3471'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3471'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183d92eb49a90b-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:26:45,709 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:26:45,709 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:26:45,709 - DEBUG - receive_response_body.complete
+2026-03-25 01:26:45,709 - DEBUG - response_closed.started
+2026-03-25 01:26:45,710 - DEBUG - response_closed.complete
+2026-03-25 01:27:03,703 - INFO - Generating chatbot response for question: who is priciple of the college
+2026-03-25 01:27:03,703 - INFO - Reformulating question based on chat history...
+2026-03-25 01:27:03,708 - DEBUG - close.started
+2026-03-25 01:27:03,708 - DEBUG - close.complete
+2026-03-25 01:27:03,708 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:27:03,751 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F7BD2FB90>
+2026-03-25 01:27:03,751 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:27:03,800 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F7BD2F530>
+2026-03-25 01:27:03,800 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:03,801 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:03,801 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:03,801 - DEBUG - send_request_body.complete
+2026-03-25 01:27:03,802 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:04,937 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:57:03 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-0e66-7528-8fec-c634de0c7922'), (b'x-kong-request-id', b'019d216c-0e66-7528-8fec-c634de0c7922'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5062'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2830325'), (b'x-ratelimit-tokens-query-cost', b'415'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'690'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'691'), (b'x-kong-proxy-latency', b'13'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183e1ccaf57f66-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:04,937 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:27:04,938 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:04,938 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:04,938 - DEBUG - response_closed.started
+2026-03-25 01:27:04,938 - DEBUG - response_closed.complete
+2026-03-25 01:27:04,939 - INFO - Original Question: who is priciple of the college
+2026-03-25 01:27:04,939 - INFO - Standalone Question: What is the name of the current principal of **Government Arts College (Autonomous), Salem-7**?
+2026-03-25 01:27:04,939 - INFO - Fetching top 3 URLs for question: What is the name of the current principal of **Government Arts College (Autonomous), Salem-7**?
+2026-03-25 01:27:04,941 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:04,941 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:04,941 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:04,942 - DEBUG - send_request_body.complete
+2026-03-25 01:27:04,942 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:05,497 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:57:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-12e6-7b89-8309-d141c3c9af1a'), (b'x-kong-request-id', b'019d216c-12e6-7b89-8309-d141c3c9af1a'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5062'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2830325'), (b'x-envoy-upstream-service-time', b'13'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'14'), (b'x-kong-proxy-latency', b'67'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e183e22ff7f7f66-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:05,497 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:27:05,497 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:05,497 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:05,497 - DEBUG - response_closed.started
+2026-03-25 01:27:05,497 - DEBUG - response_closed.complete
+2026-03-25 01:27:05,498 - WARNING - Attempt 1/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:27:05,499 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:05,500 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:05,500 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:05,503 - DEBUG - send_request_body.complete
+2026-03-25 01:27:05,503 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:06,033 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:57:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-14c4-7ccb-835a-f38f952a14d0'), (b'x-kong-request-id', b'019d216c-14c4-7ccb-835a-f38f952a14d0'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5062'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2830325'), (b'x-envoy-upstream-service-time', b'12'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'13'), (b'x-kong-proxy-latency', b'27'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e183e26895a7f66-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:06,034 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:27:06,034 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:06,034 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:06,034 - DEBUG - response_closed.started
+2026-03-25 01:27:06,034 - DEBUG - response_closed.complete
+2026-03-25 01:27:06,034 - WARNING - Attempt 2/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:27:06,036 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:06,036 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:06,038 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:06,040 - DEBUG - send_request_body.complete
+2026-03-25 01:27:06,040 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:06,509 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Tue, 24 Mar 2026 19:57:05 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'121'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-16b5-7480-afe7-0afc8dc0866c'), (b'x-kong-request-id', b'019d216c-16b5-7480-afe7-0afc8dc0866c'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5065'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2830325'), (b'x-envoy-upstream-service-time', b'11'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'13'), (b'x-kong-proxy-latency', b'67'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'CF-RAY', b'9e183e29dabd7f66-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:06,509 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-25 01:27:06,509 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:06,509 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:06,509 - DEBUG - response_closed.started
+2026-03-25 01:27:06,509 - DEBUG - response_closed.complete
+2026-03-25 01:27:06,510 - WARNING - Attempt 3/3 failed in get_top3_urls: Error response 429 while fetching https://api.mistral.ai/v1/chat/completions: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+2026-03-25 01:27:06,510 - ERROR - All attempts failed in get_top3_urls for question: What is the name of the current principal of **Government Arts College (Autonomous), Salem-7**?
+2026-03-25 01:27:21,115 - INFO - Generating chatbot response for question: who is priciple of the college
+
+
+2026-03-25 01:27:21,115 - INFO - Reformulating question based on chat history...
+2026-03-25 01:27:21,118 - DEBUG - close.started
+2026-03-25 01:27:21,118 - DEBUG - close.complete
+2026-03-25 01:27:21,119 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:27:21,167 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F6096D100>
+2026-03-25 01:27:21,167 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:27:21,268 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F7BCBEF00>
+2026-03-25 01:27:21,269 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:21,269 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:21,269 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:21,269 - DEBUG - send_request_body.complete
+2026-03-25 01:27:21,270 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:22,238 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:57:21 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-5201-75f5-a861-db4b7c0b7f82'), (b'x-kong-request-id', b'019d216c-5201-75f5-a861-db4b7c0b7f82'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'16431'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2829884'), (b'x-ratelimit-tokens-query-cost', b'441'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'52'), (b'x-envoy-upstream-service-time', b'656'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'657'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183e88f815ba20-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:22,238 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:27:22,238 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:22,238 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:22,238 - DEBUG - response_closed.started
+2026-03-25 01:27:22,238 - DEBUG - response_closed.complete
+2026-03-25 01:27:22,238 - INFO - Original Question: who is priciple of the college
+
+
+2026-03-25 01:27:22,238 - INFO - Standalone Question: Who is the current principal of Government Arts College (Autonomous), Salem-7?
+2026-03-25 01:27:22,238 - INFO - Fetching top 3 URLs for question: Who is the current principal of Government Arts College (Autonomous), Salem-7?
+2026-03-25 01:27:22,238 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:22,238 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:22,238 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:22,238 - DEBUG - send_request_body.complete
+2026-03-25 01:27:22,238 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:25,080 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:57:23 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-562f-72e2-90e1-1661eb168e29'), (b'x-kong-request-id', b'019d216c-562f-72e2-90e1-1661eb168e29'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'0'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2809016'), (b'x-ratelimit-tokens-query-cost', b'20868'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'51'), (b'x-envoy-upstream-service-time', b'2366'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2366'), (b'x-kong-proxy-latency', b'69'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183e8f1da8ba20-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:25,080 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:27:25,080 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:25,081 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:25,081 - DEBUG - response_closed.started
+2026-03-25 01:27:25,081 - DEBUG - response_closed.complete
+2026-03-25 01:27:25,081 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/principal/', 'https://gacsalem7.ac.in/about-us/', 'https://gacsalem7.ac.in/profile/']
+2026-03-25 01:27:25,083 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:27:26,182 - DEBUG - https://gacsalem7.ac.in:443 "GET /principal/ HTTP/1.1" 200 None
+2026-03-25 01:27:26,198 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:27:27,309 - DEBUG - https://gacsalem7.ac.in:443 "GET /about-us/ HTTP/1.1" 200 None
+2026-03-25 01:27:27,320 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:27:28,273 - DEBUG - https://gacsalem7.ac.in:443 "GET /profile/ HTTP/1.1" 200 None
+2026-03-25 01:27:28,286 - INFO - Best matching image: []
+2026-03-25 01:27:28,288 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:28,288 - DEBUG - send_request_headers.complete
+2026-03-25 01:27:28,288 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:27:28,288 - DEBUG - send_request_body.complete
+2026-03-25 01:27:28,288 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:27:29,786 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:57:28 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216c-6d72-7844-b1eb-3cfdf1467282'), (b'x-kong-request-id', b'019d216c-6d72-7844-b1eb-3cfdf1467282'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'2957'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2808453'), (b'x-ratelimit-tokens-query-cost', b'563'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'51'), (b'x-envoy-upstream-service-time', b'1178'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1179'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183eb4e86eba20-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:27:29,786 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:27:29,786 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:27:29,786 - DEBUG - receive_response_body.complete
+2026-03-25 01:27:29,788 - DEBUG - response_closed.started
+2026-03-25 01:27:29,788 - DEBUG - response_closed.complete
+2026-03-25 01:28:06,996 - INFO - Generating chatbot response for question: who is pugazendi?
+2026-03-25 01:28:06,996 - INFO - Reformulating question based on chat history...
+2026-03-25 01:28:06,997 - DEBUG - close.started
+2026-03-25 01:28:06,997 - DEBUG - close.complete
+2026-03-25 01:28:06,997 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:28:07,033 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F60A0C6E0>
+2026-03-25 01:28:07,033 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:28:07,064 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F609FBB00>
+2026-03-25 01:28:07,064 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:07,064 - DEBUG - send_request_headers.complete
+2026-03-25 01:28:07,064 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:28:07,065 - DEBUG - send_request_body.complete
+2026-03-25 01:28:07,065 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:08,913 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:58:07 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216d-04eb-7399-93cc-fa6a60bb7307'), (b'x-kong-request-id', b'019d216d-04eb-7399-93cc-fa6a60bb7307'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'30640'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2807890'), (b'x-ratelimit-tokens-query-cost', b'563'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'53'), (b'x-envoy-upstream-service-time', b'1446'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1447'), (b'x-kong-proxy-latency', b'13'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183fa73e142f6d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:28:08,914 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:28:08,914 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:28:08,914 - DEBUG - receive_response_body.complete
+2026-03-25 01:28:08,914 - DEBUG - response_closed.started
+2026-03-25 01:28:08,914 - DEBUG - response_closed.complete
+2026-03-25 01:28:08,915 - INFO - Original Question: who is pugazendi?
+2026-03-25 01:28:08,915 - INFO - Standalone Question: What is the connection or relevance of **Pugazhendi** to **Government Arts College (Autonomous), Salem-7** or **Dr. K. Akilandeswari**? Are you asking about:
+
+- A faculty member at the college?
+- A researcher or collaborator in Dr. Akilandeswari’s work?
+- Someone else associated with the institution?
+2026-03-25 01:28:08,915 - INFO - Fetching top 3 URLs for question: What is the connection or relevance of **Pugazhendi** to **Government Arts College (Autonomous), Salem-7** or **Dr. K. Akilandeswari**? Are you asking about:
+
+- A faculty member at the college?
+- A researcher or collaborator in Dr. Akilandeswari’s work?
+- Someone else associated with the institution?
+2026-03-25 01:28:08,917 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:08,917 - DEBUG - send_request_headers.complete
+2026-03-25 01:28:08,917 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:28:08,919 - DEBUG - send_request_body.complete
+2026-03-25 01:28:08,919 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:12,121 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:58:10 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216d-0cb2-790e-9342-48b093dccf2b'), (b'x-kong-request-id', b'019d216d-0cb2-790e-9342-48b093dccf2b'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'10755'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2786931'), (b'x-ratelimit-tokens-query-cost', b'20959'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'53'), (b'x-envoy-upstream-service-time', b'2693'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2694'), (b'x-kong-proxy-latency', b'68'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183fb2cc3c2f6d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:28:12,122 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:28:12,122 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:28:12,122 - DEBUG - receive_response_body.complete
+2026-03-25 01:28:12,122 - DEBUG - response_closed.started
+2026-03-25 01:28:12,122 - DEBUG - response_closed.complete
+2026-03-25 01:28:12,123 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 01:28:12,124 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:28:13,283 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 01:28:13,319 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 01:28:14,387 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:28:14,405 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/K.AKILANDESWARI-300x300.jpg', 'alt': 'K.AKILANDESWARI'}]
+2026-03-25 01:28:14,408 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:14,408 - DEBUG - send_request_headers.complete
+2026-03-25 01:28:14,408 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:28:14,408 - DEBUG - send_request_body.complete
+2026-03-25 01:28:14,409 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:17,232 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:58:16 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216d-21a2-7a1d-b1ab-517ed2849747'), (b'x-kong-request-id', b'019d216d-21a2-7a1d-b1ab-517ed2849747'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'11487'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2786065'), (b'x-ratelimit-tokens-query-cost', b'866'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'52'), (b'x-envoy-upstream-service-time', b'2472'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2474'), (b'x-kong-proxy-latency', b'7'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e183fd52c5f2f6d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:28:17,232 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:28:17,233 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:28:17,233 - DEBUG - receive_response_body.complete
+2026-03-25 01:28:17,233 - DEBUG - response_closed.started
+2026-03-25 01:28:17,233 - DEBUG - response_closed.complete
+2026-03-25 01:28:30,930 - INFO - Initializing College class...
+2026-03-25 01:28:30,932 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:28:41,876 - INFO - Generating chatbot response for question: who is pugazendi?
+2026-03-25 01:28:41,876 - INFO - Fetching top 3 URLs for question: who is pugazendi?
+2026-03-25 01:28:41,878 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:28:41,922 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F7BF74320>
+2026-03-25 01:28:41,922 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020F799028D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:28:41,962 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020F7BF75A30>
+2026-03-25 01:28:41,963 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:41,963 - DEBUG - send_request_headers.complete
+2026-03-25 01:28:41,963 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:28:41,964 - DEBUG - send_request_body.complete
+2026-03-25 01:28:41,965 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:46,497 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:58:45 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216d-8dd8-7038-8aac-f472d4925156'), (b'x-kong-request-id', b'019d216d-8dd8-7038-8aac-f472d4925156'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'173'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2765171'), (b'x-ratelimit-tokens-query-cost', b'20894'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'3910'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3912'), (b'x-kong-proxy-latency', b'63'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=Oh5JN0PWEJgxIwOMz9ucGCW2ME0TlteZjXOKJ54xEOs-1774382320.8563805-1.0.1.1-287RgAid4fIvChF2qjSgL5zlnV75.SHS67SKylKzJ1XDLHbG4xLY.sjNzO4RPEola5l5AaJbLE_XP_tGGmWklLOVu6IwlR75VH_R.EViY_jXmb9XOZE0uMohbdUJnUoq; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:28:45 GMT'), (b'set-cookie', b'_cfuvid=MUeDyKF2nVU63ASNGal1QGz_uDP60DroB4rzNP7SwNQ-1774382320.8563805-1.0.1.1-iWCQ2eYGnhQEcqRzzJCI68NBARbYXaROR8p.SRBMfEE; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1840815cd07eeb-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:28:46,498 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:28:46,498 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:28:46,498 - DEBUG - receive_response_body.complete
+2026-03-25 01:28:46,498 - DEBUG - response_closed.started
+2026-03-25 01:28:46,498 - DEBUG - response_closed.complete
+2026-03-25 01:28:46,499 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 01:28:46,500 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 01:28:47,961 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 01:28:47,978 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 01:28:47,980 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:47,980 - DEBUG - send_request_headers.complete
+2026-03-25 01:28:47,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:28:47,980 - DEBUG - send_request_body.complete
+2026-03-25 01:28:47,980 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:28:53,554 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 19:58:52 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d216d-a694-7389-9ae8-8dcd87afb899'), (b'x-kong-request-id', b'019d216d-a694-7389-9ae8-8dcd87afb899'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'1649'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2764315'), (b'x-ratelimit-tokens-query-cost', b'856'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'54'), (b'x-envoy-upstream-service-time', b'4775'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'4776'), (b'x-kong-proxy-latency', b'16'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1840a70a8f7eeb-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:28:53,554 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:28:53,555 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:28:53,555 - DEBUG - receive_response_body.complete
+2026-03-25 01:28:53,555 - DEBUG - response_closed.started
+2026-03-25 01:28:53,555 - DEBUG - response_closed.complete
+2026-03-25 01:36:34,584 - INFO - Initializing College class...
+2026-03-25 01:36:34,722 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 01:36:42,980 - INFO - Generating chatbot response for question: who is akilandeswari
+2026-03-25 01:36:42,980 - INFO - Fetching top 3 URLs for question: who is akilandeswari
+2026-03-25 01:36:42,993 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 01:36:43,062 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000196308898B0>
+2026-03-25 01:36:43,062 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001962F4AA3D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 01:36:43,136 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001961668DD90>
+2026-03-25 01:36:43,136 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:36:43,136 - DEBUG - send_request_headers.complete
+2026-03-25 01:36:43,136 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:36:43,137 - DEBUG - send_request_body.complete
+2026-03-25 01:36:43,137 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:36:46,364 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 20:06:45 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2174-e543-73f0-8130-34130afd31ec'), (b'x-kong-request-id', b'019d2174-e543-73f0-8130-34130afd31ec'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29105'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2743420'), (b'x-ratelimit-tokens-query-cost', b'20895'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'2729'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2730'), (b'x-kong-proxy-latency', b'67'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=sR6akQPz4nuE8Y01.yyR_Qp2AgK9zSMuv.ZMoXayQgo-1774382802.0191078-1.0.1.1-AzyGJLu4ij.OhZOzYUnNP1S37I2rrWR5OHmWuqheeAKdBqjYkRI3DDmQ.o98HY37Pbj3CLSaKkl1EQQp2YJ6qLlo0RVL0XZQJizhtqwp5ZzoLsEkBiJaTY5LYhuQAaft; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Tue, 24 Mar 2026 20:36:45 GMT'), (b'set-cookie', b'_cfuvid=9_vtTcwu2bC39.WPavOQfojemB8SgmISb0S4K6RuVjc-1774382802.0191078-1.0.1.1-qDalB88KSKOk5S8IE0aFaT7mapVJKwSw0TSUImQP76o; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e184c409e18426e-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:36:46,365 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:36:46,365 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:36:46,365 - DEBUG - receive_response_body.complete
+2026-03-25 01:36:46,365 - DEBUG - response_closed.started
+2026-03-25 01:36:46,365 - DEBUG - response_closed.complete
+2026-03-25 01:36:46,367 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-Dr.K.Akilandeswari.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 01:36:46,369 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 01:36:47,395 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 01:36:47,417 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/K.AKILANDESWARI-300x300.jpg', 'alt': 'K.AKILANDESWARI'}]
+2026-03-25 01:36:47,418 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 01:36:47,418 - DEBUG - send_request_headers.complete
+2026-03-25 01:36:47,420 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 01:36:47,420 - DEBUG - send_request_body.complete
+2026-03-25 01:36:47,420 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 01:36:50,212 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 24 Mar 2026 20:06:49 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d2174-f58b-783c-87e9-44cd11b4e3c9'), (b'x-kong-request-id', b'019d2174-f58b-783c-87e9-44cd11b4e3c9'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28419'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2742734'), (b'x-ratelimit-tokens-query-cost', b'686'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2460'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2461'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e184c5b6d13426e-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 01:36:50,213 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 01:36:50,213 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 01:36:50,213 - DEBUG - receive_response_body.complete
+2026-03-25 01:36:50,213 - DEBUG - response_closed.started
+2026-03-25 01:36:50,213 - DEBUG - response_closed.complete
+2026-03-25 12:16:12,225 - INFO - Initializing College class...
+2026-03-25 12:16:12,580 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:16:38,601 - INFO - Generating chatbot response for question: who is pugazendi?
+2026-03-25 12:16:38,601 - INFO - Fetching top 3 URLs for question: who is pugazendi?
+2026-03-25 12:16:38,667 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:16:38,914 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000144551577A0>
+2026-03-25 12:16:38,914 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:16:39,284 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014453C49B50>
+2026-03-25 12:16:39,284 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:16:39,284 - DEBUG - send_request_headers.complete
+2026-03-25 12:16:39,284 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:16:39,284 - DEBUG - send_request_body.complete
+2026-03-25 12:16:39,284 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:16:42,681 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:46:42 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23be-cc0b-7b3a-8550-f7177e8a596d'), (b'x-kong-request-id', b'019d23be-cc0b-7b3a-8550-f7177e8a596d'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29106'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2721840'), (b'x-ratelimit-tokens-query-cost', b'20894'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'2831'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2832'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=aZTG6CBTPoeo7Os5TT7GXn9ss3jLjvPA69dYb7PnE7U-1774421199.5816162-1.0.1.1-44tamYgSM0CuJPACA1qQjkeBKdlCT45S8kHwJpDcEX5KKePscE_SRXAoi9a75w.aO2ddKFfUnh1GNaIXqdGefYv5Ep97h4DnX_JfwweAPATj0z.vCF8iVtZQ6IvoiwDC; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Wed, 25 Mar 2026 07:16:42 GMT'), (b'set-cookie', b'_cfuvid=1hxgk1St1W4xazhLbltwjWTm7lmABCrxD6tBcxWZgkk-1774421199.5816162-1.0.1.1-beE8FXj5A_rBblVpiEdpitAss.I5PHy1505M.euqXqI; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bf5b169ea88c9-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:16:42,690 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:16:42,690 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:16:42,693 - DEBUG - receive_response_body.complete
+2026-03-25 12:16:42,693 - DEBUG - response_closed.started
+2026-03-25 12:16:42,693 - DEBUG - response_closed.complete
+2026-03-25 12:16:42,695 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:16:42,699 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 12:16:44,539 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:16:44,615 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:16:44,619 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:16:44,619 - DEBUG - send_request_headers.complete
+2026-03-25 12:16:44,619 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:16:44,619 - DEBUG - send_request_body.complete
+2026-03-25 12:16:44,619 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:16:49,978 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:46:49 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23be-e00c-7721-ad8e-119d7fc1ac4e'), (b'x-kong-request-id', b'019d23be-e00c-7721-ad8e-119d7fc1ac4e'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28244'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2720978'), (b'x-ratelimit-tokens-query-cost', b'862'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'4669'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'4670'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bf5d2baa888c9-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:16:49,978 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:16:49,978 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:16:49,978 - DEBUG - receive_response_body.complete
+2026-03-25 12:16:49,978 - DEBUG - response_closed.started
+2026-03-25 12:16:49,978 - DEBUG - response_closed.complete
+2026-03-25 12:17:32,447 - INFO - Generating chatbot response for question: who is hod of cs department
+2026-03-25 12:17:32,447 - INFO - Reformulating question based on chat history...
+2026-03-25 12:17:32,454 - DEBUG - close.started
+2026-03-25 12:17:32,454 - DEBUG - close.complete
+2026-03-25 12:17:32,456 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:17:32,709 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455157FB0>
+2026-03-25 12:17:32,709 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:17:32,828 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443AF46300>
+2026-03-25 12:17:32,828 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:32,828 - DEBUG - send_request_headers.complete
+2026-03-25 12:17:32,828 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:17:32,828 - DEBUG - send_request_body.complete
+2026-03-25 12:17:32,828 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:34,111 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:47:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23bf-9c94-752c-9c7d-5e983be14601'), (b'x-kong-request-id', b'019d23bf-9c94-752c-9c7d-5e983be14601'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27854'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2720588'), (b'x-ratelimit-tokens-query-cost', b'390'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'703'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'704'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bf7005b8d2224-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:17:34,111 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:17:34,113 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:17:34,113 - DEBUG - receive_response_body.complete
+2026-03-25 12:17:34,113 - DEBUG - response_closed.started
+2026-03-25 12:17:34,113 - DEBUG - response_closed.complete
+2026-03-25 12:17:34,115 - INFO - Original Question: who is hod of cs department
+2026-03-25 12:17:34,115 - INFO - Standalone Question: Who is the current Head of the Department (HOD) of the Computer Science department at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:17:34,115 - INFO - Fetching top 3 URLs for question: Who is the current Head of the Department (HOD) of the Computer Science department at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:17:34,119 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:34,123 - DEBUG - send_request_headers.complete
+2026-03-25 12:17:34,123 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:17:34,124 - DEBUG - send_request_body.complete
+2026-03-25 12:17:34,124 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:37,441 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:47:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23bf-a1be-7ce3-8e62-9e1431b54707'), (b'x-kong-request-id', b'019d23bf-a1be-7ce3-8e62-9e1431b54707'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'6943'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2699677'), (b'x-ratelimit-tokens-query-cost', b'20911'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'2911'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2912'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bf70849142224-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:17:37,441 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:17:37,441 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:17:37,452 - DEBUG - receive_response_body.complete
+2026-03-25 12:17:37,453 - DEBUG - response_closed.started
+2026-03-25 12:17:37,453 - DEBUG - response_closed.complete
+2026-03-25 12:17:37,453 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/our_team/mr-m-jayabalan-associate-professor-and-head/', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:17:37,457 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:17:39,101 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 12:17:39,160 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:17:41,766 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/mr-m-jayabalan-associate-professor-and-head/ HTTP/1.1" 200 None
+2026-03-25 12:17:41,817 - INFO - Best matching image: []
+2026-03-25 12:17:41,820 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:41,820 - DEBUG - send_request_headers.complete
+2026-03-25 12:17:41,820 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:17:41,822 - DEBUG - send_request_body.complete
+2026-03-25 12:17:41,822 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:17:44,158 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:47:44 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23bf-bf85-75eb-a9c2-166d0cb615ef'), (b'x-kong-request-id', b'019d23bf-bf85-75eb-a9c2-166d0cb615ef'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'7247'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2698904'), (b'x-ratelimit-tokens-query-cost', b'773'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'2010'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2011'), (b'x-kong-proxy-latency', b'14'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bf7383fa52224-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:17:44,158 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:17:44,158 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:17:44,161 - DEBUG - receive_response_body.complete
+2026-03-25 12:17:44,161 - DEBUG - response_closed.started
+2026-03-25 12:17:44,161 - DEBUG - response_closed.complete
+2026-03-25 12:20:26,309 - INFO - Initializing College class...
+2026-03-25 12:20:26,312 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:21:12,550 - INFO - Generating chatbot response for question: who is pugazendi
+2026-03-25 12:21:12,550 - INFO - Fetching top 3 URLs for question: who is pugazendi
+2026-03-25 12:21:12,559 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:21:12,663 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443AD059A0>
+2026-03-25 12:21:12,664 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:21:13,502 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443AEEA4B0>
+2026-03-25 12:21:13,502 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:13,503 - DEBUG - send_request_headers.complete
+2026-03-25 12:21:13,503 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:21:13,505 - DEBUG - send_request_body.complete
+2026-03-25 12:21:13,505 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:19,929 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:51:20 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c2-faa8-7554-ac20-49b6cb1becf0'), (b'x-kong-request-id', b'019d23c2-faa8-7554-ac20-49b6cb1becf0'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29107'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2678011'), (b'x-ratelimit-tokens-query-cost', b'20893'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'5976'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'5977'), (b'x-kong-proxy-latency', b'13'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=_NbNLcBPYAz3v.02.REhhwyVe7k8F0C3LIHDGXvyeOU-1774421473.7940629-1.0.1.1-GN3YiH2ceuw7I2ypNaaKjrx1ZBknatqGh7Zq4HM2Y1lcGTpp.FLvdNrPIZjQUWYg9keST32O8cVirAInYgibK.CkjpCdtudM0Awn3cpPUgWOZt1FSVQtBeV6qbS.8mw5; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Wed, 25 Mar 2026 07:21:20 GMT'), (b'set-cookie', b'_cfuvid=SKSn.Kuy_sfq0gbfFwaBo1fZTcx3wKXWc7g08dng2_4-1774421473.7940629-1.0.1.1-dKUkGtLpLvGH740apuEzMIlwHEh8lpHE6KrsGDibK88; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bfc633d737f39-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:21:19,930 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:21:19,931 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:21:19,931 - DEBUG - receive_response_body.complete
+2026-03-25 12:21:19,931 - DEBUG - response_closed.started
+2026-03-25 12:21:19,931 - DEBUG - response_closed.complete
+2026-03-25 12:21:19,932 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:21:19,936 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 12:21:25,663 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:21:25,689 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:21:25,694 - DEBUG - close.started
+2026-03-25 12:21:25,696 - DEBUG - close.complete
+2026-03-25 12:21:25,696 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:21:27,523 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001445538E660>
+2026-03-25 12:21:27,524 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:21:27,890 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001445538E8A0>
+2026-03-25 12:21:27,890 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:27,891 - DEBUG - send_request_headers.complete
+2026-03-25 12:21:27,891 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:21:27,891 - DEBUG - send_request_body.complete
+2026-03-25 12:21:27,892 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:32,933 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:51:32 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c3-3494-7444-b1a9-361799d5ba7a'), (b'x-kong-request-id', b'019d23c3-3494-7444-b1a9-361799d5ba7a'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28279'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2677183'), (b'x-ratelimit-tokens-query-cost', b'828'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'3895'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3897'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bfcc058f5b299-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:21:32,934 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:21:32,935 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:21:32,935 - DEBUG - receive_response_body.complete
+2026-03-25 12:21:32,935 - DEBUG - response_closed.started
+2026-03-25 12:21:32,935 - DEBUG - response_closed.complete
+2026-03-25 12:21:41,214 - INFO - Generating chatbot response for question: who is akilandeswari
+2026-03-25 12:21:41,214 - INFO - Reformulating question based on chat history...
+2026-03-25 12:21:41,219 - DEBUG - close.started
+2026-03-25 12:21:41,220 - DEBUG - close.complete
+2026-03-25 12:21:41,221 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:21:41,402 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000144551876E0>
+2026-03-25 12:21:41,403 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:21:41,518 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014454F5EDE0>
+2026-03-25 12:21:41,518 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:41,518 - DEBUG - send_request_headers.complete
+2026-03-25 12:21:41,519 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:21:41,519 - DEBUG - send_request_body.complete
+2026-03-25 12:21:41,519 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:42,717 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:51:42 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c3-67ca-77f7-87a9-373649bfdde5'), (b'x-kong-request-id', b'019d23c3-67ca-77f7-87a9-373649bfdde5'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27926'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2676830'), (b'x-ratelimit-tokens-query-cost', b'353'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'795'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'796'), (b'x-kong-proxy-latency', b'11'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bfd124ec4f3dc-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:21:42,718 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:21:42,718 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:21:42,719 - DEBUG - receive_response_body.complete
+2026-03-25 12:21:42,719 - DEBUG - response_closed.started
+2026-03-25 12:21:42,719 - DEBUG - response_closed.complete
+2026-03-25 12:21:42,719 - INFO - Original Question: who is akilandeswari
+2026-03-25 12:21:42,719 - INFO - Standalone Question: What is the background or profile of Akilandeswari? Is she associated with Dr. R. Pugazendi?
+2026-03-25 12:21:42,719 - INFO - Fetching top 3 URLs for question: What is the background or profile of Akilandeswari? Is she associated with Dr. R. Pugazendi?
+2026-03-25 12:21:42,724 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:42,725 - DEBUG - send_request_headers.complete
+2026-03-25 12:21:42,725 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:21:42,726 - DEBUG - send_request_body.complete
+2026-03-25 12:21:42,726 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:45,697 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:51:45 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c3-6d9a-7c08-a8a5-90ffe8df98d6'), (b'x-kong-request-id', b'019d23c3-6d9a-7c08-a8a5-90ffe8df98d6'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'7021'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2655925'), (b'x-ratelimit-tokens-query-cost', b'20905'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'2394'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2395'), (b'x-kong-proxy-latency', b'12'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bfd19c9ccf3dc-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:21:45,698 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:21:45,698 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:21:45,705 - DEBUG - receive_response_body.complete
+2026-03-25 12:21:45,705 - DEBUG - response_closed.started
+2026-03-25 12:21:45,705 - DEBUG - response_closed.complete
+2026-03-25 12:21:45,711 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:21:45,715 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:21:47,877 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 12:21:47,915 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:21:49,642 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:21:49,673 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:21:49,677 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:49,678 - DEBUG - send_request_headers.complete
+2026-03-25 12:21:49,678 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:21:49,678 - DEBUG - send_request_body.complete
+2026-03-25 12:21:49,678 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:21:54,315 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:51:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c3-87ab-7743-874b-a2274c345372'), (b'x-kong-request-id', b'019d23c3-87ab-7743-874b-a2274c345372'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'6195'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2655099'), (b'x-ratelimit-tokens-query-cost', b'826'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'4279'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'4279'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1bfd454dc2f3dc-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:21:54,316 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:21:54,317 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:21:54,317 - DEBUG - receive_response_body.complete
+2026-03-25 12:21:54,318 - DEBUG - response_closed.started
+2026-03-25 12:21:54,318 - DEBUG - response_closed.complete
+2026-03-25 12:22:10,616 - INFO - Initializing College class...
+2026-03-25 12:22:10,621 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:26:27,412 - INFO - Generating chatbot response for question: who is pugazendi?
+2026-03-25 12:26:27,413 - INFO - Fetching top 3 URLs for question: who is pugazendi?
+2026-03-25 12:26:27,417 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:26:27,541 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014453C49B50>
+2026-03-25 12:26:27,541 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:26:27,734 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443AFBEB70>
+2026-03-25 12:26:27,734 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:26:27,735 - DEBUG - send_request_headers.complete
+2026-03-25 12:26:27,735 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:26:27,735 - DEBUG - send_request_body.complete
+2026-03-25 12:26:27,735 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:26:31,167 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:56:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c7-c633-7157-ac40-0f8cf7e0c420'), (b'x-kong-request-id', b'019d23c7-c633-7157-ac40-0f8cf7e0c420'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29106'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2634205'), (b'x-ratelimit-tokens-query-cost', b'20894'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'2868'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2870'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=N_DmeVVKvA18mvFP7j_P2xsj4w2bqOnhhYOXSj8wSQk-1774421788.012553-1.0.1.1-RaB5_zbiy1uUcE6S7yVX4HdPVtWQ._RL8DZG_vJav.uih3zNGDsWmK5ylTuAy0aYRiF7iVuzaLY29bPRP1n3RArRtNY_mDSMKqU8ScgYmJK46njdl4e1ogVc.HNjzRyR; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Wed, 25 Mar 2026 07:26:31 GMT'), (b'set-cookie', b'_cfuvid=.uD0lPOWM6QhJZAtFNDXBQZoy18xoSjG2pLZDVXOKFs-1774421788.012553-1.0.1.1-WZO3kwYRieub4qEdNtBOOVGjNurxpW_NvdcmpI4EOx0; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c040f1effe14a-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:26:31,168 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:26:31,168 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:26:31,169 - DEBUG - receive_response_body.complete
+2026-03-25 12:26:31,169 - DEBUG - response_closed.started
+2026-03-25 12:26:31,169 - DEBUG - response_closed.complete
+2026-03-25 12:26:31,170 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:26:31,173 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 12:26:33,961 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:26:33,994 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:26:33,997 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:26:33,998 - DEBUG - send_request_headers.complete
+2026-03-25 12:26:33,998 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:26:33,998 - DEBUG - send_request_body.complete
+2026-03-25 12:26:33,998 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:26:39,503 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:56:39 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c7-de3e-75b5-9762-13673fd2b325'), (b'x-kong-request-id', b'019d23c7-de3e-75b5-9762-13673fd2b325'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28244'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2633343'), (b'x-ratelimit-tokens-query-cost', b'862'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'4568'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'4569'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c04363ba8e14a-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:26:39,504 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:26:39,504 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:26:39,505 - DEBUG - receive_response_body.complete
+2026-03-25 12:26:39,505 - DEBUG - response_closed.started
+2026-03-25 12:26:39,505 - DEBUG - response_closed.complete
+2026-03-25 12:27:26,397 - INFO - Generating chatbot response for question: who is akilandeshwari in computer science department?
+2026-03-25 12:27:26,398 - INFO - Reformulating question based on chat history...
+2026-03-25 12:27:26,402 - DEBUG - close.started
+2026-03-25 12:27:26,403 - DEBUG - close.complete
+2026-03-25 12:27:26,404 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:27:26,779 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000144554646E0>
+2026-03-25 12:27:26,780 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:27:27,248 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455464650>
+2026-03-25 12:27:27,248 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:27,250 - DEBUG - send_request_headers.complete
+2026-03-25 12:27:27,250 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:27:27,250 - DEBUG - send_request_body.complete
+2026-03-25 12:27:27,250 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:28,254 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:57:28 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c8-ae45-7f5f-b96b-1291437f28e2'), (b'x-kong-request-id', b'019d23c8-ae45-7f5f-b96b-1291437f28e2'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27851'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2632950'), (b'x-ratelimit-tokens-query-cost', b'393'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'640'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'641'), (b'x-kong-proxy-latency', b'11'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c058309fb3c4f-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:27:28,254 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:27:28,255 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:27:28,457 - DEBUG - receive_response_body.complete
+2026-03-25 12:27:28,458 - DEBUG - response_closed.started
+2026-03-25 12:27:28,458 - DEBUG - response_closed.complete
+2026-03-25 12:27:28,459 - INFO - Original Question: who is akilandeshwari in computer science department?
+2026-03-25 12:27:28,459 - INFO - Standalone Question: Who is Akilandeshwari in the **Government Arts College (Autonomous), Salem-7** Computer Science department?
+2026-03-25 12:27:28,459 - INFO - Fetching top 3 URLs for question: Who is Akilandeshwari in the **Government Arts College (Autonomous), Salem-7** Computer Science department?
+2026-03-25 12:27:28,463 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:28,464 - DEBUG - send_request_headers.complete
+2026-03-25 12:27:28,464 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:27:28,465 - DEBUG - send_request_body.complete
+2026-03-25 12:27:28,465 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:31,354 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:57:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c8-b35f-7cb4-86ff-09a3713bfaf0'), (b'x-kong-request-id', b'019d23c8-b35f-7cb4-86ff-09a3713bfaf0'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'7073'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2612056'), (b'x-ratelimit-tokens-query-cost', b'20894'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'2476'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2477'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c058aab973c4f-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:27:31,354 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:27:31,354 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:27:31,354 - DEBUG - receive_response_body.complete
+2026-03-25 12:27:31,354 - DEBUG - response_closed.started
+2026-03-25 12:27:31,354 - DEBUG - response_closed.complete
+2026-03-25 12:27:31,363 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/our_team/']
+2026-03-25 12:27:31,365 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:27:34,908 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 12:27:35,362 - INFO - Best matching image: []
+2026-03-25 12:27:35,370 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:35,370 - DEBUG - send_request_headers.complete
+2026-03-25 12:27:35,370 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:27:35,370 - DEBUG - send_request_body.complete
+2026-03-25 12:27:35,370 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:27:39,002 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:57:39 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23c8-ce03-71bd-a86a-51c2063f1d50'), (b'x-kong-request-id', b'019d23c8-ce03-71bd-a86a-51c2063f1d50'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'9104'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2611347'), (b'x-ratelimit-tokens-query-cost', b'709'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'3073'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3074'), (b'x-kong-proxy-latency', b'12'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c05b5c8dd3c4f-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:27:39,002 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:27:39,002 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:27:39,002 - DEBUG - receive_response_body.complete
+2026-03-25 12:27:39,002 - DEBUG - response_closed.started
+2026-03-25 12:27:39,002 - DEBUG - response_closed.complete
+2026-03-25 12:28:38,362 - INFO - Initializing College class...
+2026-03-25 12:28:38,365 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:29:24,575 - INFO - Generating chatbot response for question: who is dr pugazendi?
+2026-03-25 12:29:24,576 - INFO - Fetching top 3 URLs for question: who is dr pugazendi?
+2026-03-25 12:29:24,579 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:29:24,692 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455012FC0>
+2026-03-25 12:29:24,692 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:29:25,059 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443D9D3470>
+2026-03-25 12:29:25,059 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:29:25,060 - DEBUG - send_request_headers.complete
+2026-03-25 12:29:25,060 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:29:25,061 - DEBUG - send_request_body.complete
+2026-03-25 12:29:25,061 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:29:28,349 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:59:28 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23ca-7b32-7ad9-a096-4ec4cc0003dc'), (b'x-kong-request-id', b'019d23ca-7b32-7ad9-a096-4ec4cc0003dc'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28101'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2590452'), (b'x-ratelimit-tokens-query-cost', b'20895'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'60'), (b'x-envoy-upstream-service-time', b'2674'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2675'), (b'x-kong-proxy-latency', b'15'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=LC6JFRm8QctjtIxSw.8.RPpQ2PvX4bWXbr62oz2pRL8-1774421965.4017348-1.0.1.1-IW29vEwdxvOBlFBlCBsMF4mj0XxnQYzNui82rB7NM327RZyPAOaFZPFQUBnMDaJABl2rcZ9f92ikKt3nhn_OLZcdp9JITCm..CbScUrkrwkKoLFRLukKUfDGKUpjvoSU; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Wed, 25 Mar 2026 07:29:28 GMT'), (b'set-cookie', b'_cfuvid=GW5JRLgmPGXx1sVwYsC6QqsL9w5lmGc67CU_GsjIw0Y-1774421965.4017348-1.0.1.1-aTQBkw0c0_Yloe.CrXDX7AFr_S2N9uEwPHTnWpmAifk; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0863cf117aff-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:29:28,350 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:29:28,350 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:29:28,352 - DEBUG - receive_response_body.complete
+2026-03-25 12:29:28,352 - DEBUG - response_closed.started
+2026-03-25 12:29:28,352 - DEBUG - response_closed.complete
+2026-03-25 12:29:28,353 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:29:28,357 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 12:29:35,693 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:29:35,760 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:29:35,763 - DEBUG - close.started
+2026-03-25 12:29:35,764 - DEBUG - close.complete
+2026-03-25 12:29:35,764 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:29:35,792 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000144553646E0>
+2026-03-25 12:29:35,793 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:29:35,841 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001445536BAA0>
+2026-03-25 12:29:35,841 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:29:35,842 - DEBUG - send_request_headers.complete
+2026-03-25 12:29:35,842 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:29:35,843 - DEBUG - send_request_body.complete
+2026-03-25 12:29:35,843 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:29:40,895 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 06:59:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23ca-a538-7150-87e1-97a88903093f'), (b'x-kong-request-id', b'019d23ca-a538-7150-87e1-97a88903093f'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'31674'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2589594'), (b'x-ratelimit-tokens-query-cost', b'858'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'4551'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'4552'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c08a7bc7b179b-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:29:40,895 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:29:40,896 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:29:40,935 - DEBUG - receive_response_body.complete
+2026-03-25 12:29:40,935 - DEBUG - response_closed.started
+2026-03-25 12:29:40,935 - DEBUG - response_closed.complete
+2026-03-25 12:30:21,825 - INFO - Generating chatbot response for question: who is chitra ?
+and which department ?
+2026-03-25 12:30:21,825 - INFO - Reformulating question based on chat history...
+2026-03-25 12:30:21,829 - DEBUG - close.started
+2026-03-25 12:30:21,830 - DEBUG - close.complete
+2026-03-25 12:30:21,831 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:30:23,004 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000144553357C0>
+2026-03-25 12:30:23,004 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:30:23,049 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455335100>
+2026-03-25 12:30:23,049 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:23,050 - DEBUG - send_request_headers.complete
+2026-03-25 12:30:23,050 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:30:23,051 - DEBUG - send_request_body.complete
+2026-03-25 12:30:23,051 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:26,525 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:00:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-5d29-7bf4-9b29-db79ce153065'), (b'x-kong-request-id', b'019d23cb-5d29-7bf4-9b29-db79ce153065'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'47146'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2589220'), (b'x-ratelimit-tokens-query-cost', b'374'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2974'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2975'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c09ce1dcb7fa1-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:30:26,525 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:30:26,525 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:30:26,525 - DEBUG - receive_response_body.complete
+2026-03-25 12:30:26,534 - DEBUG - response_closed.started
+2026-03-25 12:30:26,534 - DEBUG - response_closed.complete
+2026-03-25 12:30:26,535 - INFO - Original Question: who is chitra ?
+and which department ?
+2026-03-25 12:30:26,535 - INFO - Standalone Question: What is Chitra's role, and which department is she associated with?
+2026-03-25 12:30:26,535 - INFO - Fetching top 3 URLs for question: What is Chitra's role, and which department is she associated with?
+2026-03-25 12:30:26,539 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:26,540 - DEBUG - send_request_headers.complete
+2026-03-25 12:30:26,540 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:30:26,540 - DEBUG - send_request_body.complete
+2026-03-25 12:30:26,540 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:31,107 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:00:31 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-7199-7d02-8764-efdc1d913c69'), (b'x-kong-request-id', b'019d23cb-7199-7d02-8764-efdc1d913c69'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27876'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2568337'), (b'x-ratelimit-tokens-query-cost', b'20883'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2364'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2365'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c09e4083e7fa1-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:30:31,108 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:30:31,108 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:30:31,108 - DEBUG - receive_response_body.complete
+2026-03-25 12:30:31,108 - DEBUG - response_closed.started
+2026-03-25 12:30:31,108 - DEBUG - response_closed.complete
+2026-03-25 12:30:31,109 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-d-chitra-associate-professor/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/departments/']
+2026-03-25 12:30:31,112 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:30:33,222 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-d-chitra-associate-professor/ HTTP/1.1" 200 None
+2026-03-25 12:30:33,251 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:30:35,292 - DEBUG - https://gacsalem7.ac.in:443 "GET /departments/ HTTP/1.1" 200 None
+2026-03-25 12:30:35,388 - INFO - Best matching image: []
+2026-03-25 12:30:35,392 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:35,392 - DEBUG - send_request_headers.complete
+2026-03-25 12:30:35,392 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:30:35,393 - DEBUG - send_request_body.complete
+2026-03-25 12:30:35,393 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:37,628 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:00:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-8d33-7ea9-b919-e7daeef4f78c'), (b'x-kong-request-id', b'019d23cb-8d33-7ea9-b919-e7daeef4f78c'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29564'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2567594'), (b'x-ratelimit-tokens-query-cost', b'743'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'1897'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1898'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0a1ae8c27fa1-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:30:37,628 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:30:37,628 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:30:37,628 - DEBUG - receive_response_body.complete
+2026-03-25 12:30:37,628 - DEBUG - response_closed.started
+2026-03-25 12:30:37,628 - DEBUG - response_closed.complete
+2026-03-25 12:30:49,668 - INFO - Generating chatbot response for question: give me photo of chitra
+2026-03-25 12:30:49,668 - INFO - Reformulating question based on chat history...
+2026-03-25 12:30:49,673 - DEBUG - close.started
+2026-03-25 12:30:49,673 - DEBUG - close.complete
+2026-03-25 12:30:49,674 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:30:49,698 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455466480>
+2026-03-25 12:30:49,698 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:30:49,731 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455465EE0>
+2026-03-25 12:30:49,731 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:49,732 - DEBUG - send_request_headers.complete
+2026-03-25 12:30:49,732 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:30:49,732 - DEBUG - send_request_body.complete
+2026-03-25 12:30:49,732 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:51,447 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:00:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-c538-713c-80c6-e8a137d743e8'), (b'x-kong-request-id', b'019d23cb-c538-713c-80c6-e8a137d743e8'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'34056'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2567085'), (b'x-ratelimit-tokens-query-cost', b'509'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'1123'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1124'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0a748fbd8031-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:30:51,449 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:30:51,449 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:30:51,449 - DEBUG - receive_response_body.complete
+2026-03-25 12:30:51,449 - DEBUG - response_closed.started
+2026-03-25 12:30:51,449 - DEBUG - response_closed.complete
+2026-03-25 12:30:51,451 - INFO - Original Question: give me photo of chitra
+2026-03-25 12:30:51,451 - INFO - Standalone Question: What is the full name of the faculty member whose photograph you are requesting, and are you specifically looking for an official photo of **Dr. D. Chitra** from the Department of Computer Science at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:30:51,451 - INFO - Fetching top 3 URLs for question: What is the full name of the faculty member whose photograph you are requesting, and are you specifically looking for an official photo of **Dr. D. Chitra** from the Department of Computer Science at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:30:51,454 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:51,455 - DEBUG - send_request_headers.complete
+2026-03-25 12:30:51,455 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:30:51,458 - DEBUG - send_request_body.complete
+2026-03-25 12:30:51,458 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:30:54,202 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:00:54 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-cc58-7794-a95b-a60374053398'), (b'x-kong-request-id', b'019d23cb-cc58-7794-a95b-a60374053398'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'14255'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2546165'), (b'x-ratelimit-tokens-query-cost', b'20920'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'2335'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2336'), (b'x-kong-proxy-latency', b'11'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0a7f4dad8031-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:30:54,202 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:30:54,202 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:30:54,202 - DEBUG - receive_response_body.complete
+2026-03-25 12:30:54,202 - DEBUG - response_closed.started
+2026-03-25 12:30:54,202 - DEBUG - response_closed.complete
+2026-03-25 12:30:54,202 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-d-chitra-associate-professor/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/our_team/']
+2026-03-25 12:30:54,210 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:30:56,010 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-d-chitra-associate-professor/ HTTP/1.1" 200 None
+2026-03-25 12:30:59,924 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/D.CHITRA.jpg', 'alt': 'D.CHITRA'}]
+2026-03-25 12:30:59,927 - DEBUG - close.started
+2026-03-25 12:30:59,927 - DEBUG - close.complete
+2026-03-25 12:30:59,927 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:31:00,222 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001443D9D3470>
+2026-03-25 12:31:00,222 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:31:03,208 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455466780>
+2026-03-25 12:31:03,208 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:31:03,208 - DEBUG - send_request_headers.complete
+2026-03-25 12:31:03,208 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:31:03,208 - DEBUG - send_request_body.complete
+2026-03-25 12:31:03,208 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:31:05,299 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:01:05 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cb-f9de-75f2-b19f-f1403b5ce021'), (b'x-kong-request-id', b'019d23cb-f9de-75f2-b19f-f1403b5ce021'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'17635'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2545493'), (b'x-ratelimit-tokens-query-cost', b'672'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'1677'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1678'), (b'x-kong-proxy-latency', b'13'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0ac8c8787e7e-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:31:05,300 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:31:05,300 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:31:05,432 - DEBUG - receive_response_body.complete
+2026-03-25 12:31:05,433 - DEBUG - response_closed.started
+2026-03-25 12:31:05,433 - DEBUG - response_closed.complete
+2026-03-25 12:32:38,571 - INFO - Generating chatbot response for question: who is the hod of computer science and give me the photo and details about him
+2026-03-25 12:32:38,573 - INFO - Reformulating question based on chat history...
+2026-03-25 12:32:38,578 - DEBUG - close.started
+2026-03-25 12:32:38,579 - DEBUG - close.complete
+2026-03-25 12:32:38,580 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:32:38,728 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014453E47A40>
+2026-03-25 12:32:38,728 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:32:38,766 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014453E47B00>
+2026-03-25 12:32:38,766 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:38,767 - DEBUG - send_request_headers.complete
+2026-03-25 12:32:38,767 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:32:38,767 - DEBUG - send_request_body.complete
+2026-03-25 12:32:38,768 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:40,067 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:02:40 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-6f20-7855-ad85-ea53bbe0309a'), (b'x-kong-request-id', b'019d23cd-6f20-7855-ad85-ea53bbe0309a'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'49390'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2544883'), (b'x-ratelimit-tokens-query-cost', b'610'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'980'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'981'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0d1df86fa90d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:32:40,067 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:32:40,068 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:32:40,068 - DEBUG - receive_response_body.complete
+2026-03-25 12:32:40,068 - DEBUG - response_closed.started
+2026-03-25 12:32:40,068 - DEBUG - response_closed.complete
+2026-03-25 12:32:40,069 - INFO - Original Question: who is the hod of computer science and give me the photo and details about him
+2026-03-25 12:32:40,069 - INFO - Standalone Question: Who is the current **Head of the Department (HOD)** of **Computer Science** at **Government Arts College (Autonomous), Salem-7**? Please provide their details and, if available, a photo.
+2026-03-25 12:32:40,069 - INFO - Fetching top 3 URLs for question: Who is the current **Head of the Department (HOD)** of **Computer Science** at **Government Arts College (Autonomous), Salem-7**? Please provide their details and, if available, a photo.
+2026-03-25 12:32:40,072 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:40,072 - DEBUG - send_request_headers.complete
+2026-03-25 12:32:40,073 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:32:40,074 - DEBUG - send_request_body.complete
+2026-03-25 12:32:40,074 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:43,225 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:02:43 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-74db-7eb2-a194-63a1c9638180'), (b'x-kong-request-id', b'019d23cd-74db-7eb2-a194-63a1c9638180'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28471'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2523964'), (b'x-ratelimit-tokens-query-cost', b'20919'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2687'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2688'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0d262a66a90d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:32:43,225 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:32:43,226 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:32:43,226 - DEBUG - receive_response_body.complete
+2026-03-25 12:32:43,226 - DEBUG - response_closed.started
+2026-03-25 12:32:43,226 - DEBUG - response_closed.complete
+2026-03-25 12:32:43,227 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-k-akilandeswari/', 'https://gacsalem7.ac.in/our_team/mr-m-thangavel/', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:32:43,230 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:32:44,982 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-k-akilandeswari/ HTTP/1.1" 200 None
+2026-03-25 12:32:45,015 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:32:46,926 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/mr-m-thangavel/ HTTP/1.1" 200 None
+2026-03-25 12:32:46,946 - INFO - Best matching image: []
+2026-03-25 12:32:46,955 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:46,955 - DEBUG - send_request_headers.complete
+2026-03-25 12:32:46,955 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:32:46,955 - DEBUG - send_request_body.complete
+2026-03-25 12:32:46,955 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:32:50,943 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:02:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-8f1d-7810-b441-b7c8f653591d'), (b'x-kong-request-id', b'019d23cd-8f1d-7810-b441-b7c8f653591d'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27389'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2522882'), (b'x-ratelimit-tokens-query-cost', b'1082'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'3621'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3623'), (b'x-kong-proxy-latency', b'7'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0d512d7aa90d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:32:50,943 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:32:50,944 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:32:50,944 - DEBUG - receive_response_body.complete
+2026-03-25 12:32:50,944 - DEBUG - response_closed.started
+2026-03-25 12:32:50,944 - DEBUG - response_closed.complete
+2026-03-25 12:33:00,330 - INFO - Generating chatbot response for question: give me his photo
+2026-03-25 12:33:00,330 - INFO - Reformulating question based on chat history...
+2026-03-25 12:33:00,335 - DEBUG - close.started
+2026-03-25 12:33:00,335 - DEBUG - close.complete
+2026-03-25 12:33:00,337 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:33:00,411 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014453D8C560>
+2026-03-25 12:33:00,411 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014453E0A2D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:33:00,687 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014455337B00>
+2026-03-25 12:33:00,690 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:00,690 - DEBUG - send_request_headers.complete
+2026-03-25 12:33:00,690 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:33:00,690 - DEBUG - send_request_body.complete
+2026-03-25 12:33:00,690 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:01,984 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:03:02 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-c4be-7008-8354-b352e18d6613'), (b'x-kong-request-id', b'019d23cd-c4be-7008-8354-b352e18d6613'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'26559'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2522052'), (b'x-ratelimit-tokens-query-cost', b'830'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'56'), (b'x-envoy-upstream-service-time', b'797'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'798'), (b'x-kong-proxy-latency', b'7'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0da70be68826-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:33:01,986 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:33:01,986 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:33:01,986 - DEBUG - receive_response_body.complete
+2026-03-25 12:33:01,986 - DEBUG - response_closed.started
+2026-03-25 12:33:01,986 - DEBUG - response_closed.complete
+2026-03-25 12:33:01,988 - INFO - Original Question: give me his photo
+2026-03-25 12:33:01,988 - INFO - Standalone Question: What is the request for a photo of Dr. M. Thangavel, the Head of the Department of Computer Science at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:33:01,988 - INFO - Fetching top 3 URLs for question: What is the request for a photo of Dr. M. Thangavel, the Head of the Department of Computer Science at Government Arts College (Autonomous), Salem-7?
+2026-03-25 12:33:01,993 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:01,993 - DEBUG - send_request_headers.complete
+2026-03-25 12:33:01,993 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:33:01,993 - DEBUG - send_request_body.complete
+2026-03-25 12:33:01,993 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:04,894 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:03:05 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-cac8-7a86-a8f1-07e5a9579fbb'), (b'x-kong-request-id', b'019d23cd-cac8-7a86-a8f1-07e5a9579fbb'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'5658'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2501151'), (b'x-ratelimit-tokens-query-cost', b'20901'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'55'), (b'x-envoy-upstream-service-time', b'2253'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2254'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0daf2bf18826-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:33:04,895 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:33:04,895 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:33:04,895 - DEBUG - receive_response_body.complete
+2026-03-25 12:33:04,896 - DEBUG - response_closed.started
+2026-03-25 12:33:04,896 - DEBUG - response_closed.complete
+2026-03-25 12:33:04,897 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/mr-m-thangavel/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/our_team/']
+2026-03-25 12:33:04,901 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:33:07,148 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/mr-m-thangavel/ HTTP/1.1" 200 None
+2026-03-25 12:33:07,197 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/M.-THANGAVEL-300x300.jpg', 'alt': 'M. THANGAVEL'}]
+2026-03-25 12:33:07,204 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:07,206 - DEBUG - send_request_headers.complete
+2026-03-25 12:33:07,206 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:33:07,208 - DEBUG - send_request_body.complete
+2026-03-25 12:33:07,208 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:33:09,282 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:03:09 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23cd-de38-7aa3-9a18-00090359163e'), (b'x-kong-request-id', b'019d23cd-de38-7aa3-9a18-00090359163e'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'4614'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2500107'), (b'x-ratelimit-tokens-query-cost', b'1044'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'54'), (b'x-envoy-upstream-service-time', b'1765'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'1766'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c0dcfbdac8826-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:33:09,284 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:33:09,284 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:33:09,285 - DEBUG - receive_response_body.complete
+2026-03-25 12:33:09,285 - DEBUG - response_closed.started
+2026-03-25 12:33:09,285 - DEBUG - response_closed.complete
+2026-03-25 12:33:44,466 - INFO - Initializing College class...
+2026-03-25 12:33:44,469 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:37:35,875 - INFO - Initializing College class...
+2026-03-25 12:37:36,114 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:40:33,627 - INFO - Initializing College class...
+2026-03-25 12:40:33,630 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:44:37,077 - INFO - Initializing College class...
+2026-03-25 12:44:37,352 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:44:37,801 - INFO - Initializing College class...
+2026-03-25 12:44:37,804 - INFO - Local knowledge base found. Loading from JSON...
+2026-03-25 12:45:21,013 - INFO - Generating chatbot response for question: who is dr pugazendi?
+2026-03-25 12:45:21,013 - INFO - Fetching top 3 URLs for question: who is dr pugazendi?
+2026-03-25 12:45:21,059 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:45:21,723 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246E7F5B1D0>
+2026-03-25 12:45:21,723 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:45:22,051 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFC1CCB0>
+2026-03-25 12:45:22,051 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:45:22,052 - DEBUG - send_request_headers.complete
+2026-03-25 12:45:22,052 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:45:22,054 - DEBUG - send_request_body.complete
+2026-03-25 12:45:22,054 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:45:25,630 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:15:25 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23d9-156f-7d43-87ee-6d8ec0bec38f'), (b'x-kong-request-id', b'019d23d9-156f-7d43-87ee-6d8ec0bec38f'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29105'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2479550'), (b'x-ratelimit-tokens-query-cost', b'20895'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'3023'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3024'), (b'x-kong-proxy-latency', b'10'), (b'cf-cache-status', b'DYNAMIC'), (b'set-cookie', b'__cf_bm=QCVFulneFwr_C2ZN2ubj1W9qNlS5.vWP5dKu9Kd55dw-1774422922.3125374-1.0.1.1-Q0Tvm95Ea3UoiJNcihPoPDgLHln9HlxgfDoyIm4.dfc71AB6NRGpKNVm5XH45va20MEbLgJdaB4ylvESFBfDG5hNb1e1uHjFYG6EAcQo_V32qhgqDEY8iZyN4.Dckbzy; HttpOnly; Secure; Path=/; Domain=mistral.ai; Expires=Wed, 25 Mar 2026 07:45:25 GMT'), (b'set-cookie', b'_cfuvid=lsIQPkszlPNSvR3lMO78ol4oD4UHCD3ulUyFDuHkeCA-1774422922.3125374-1.0.1.1-EBtvi5.5VHrMWLt5rpPfd4e3oaxqd0b3zGcSR40bVtM; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c1fc07e5fe14a-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:45:25,633 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:45:25,633 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:45:25,633 - DEBUG - receive_response_body.complete
+2026-03-25 12:45:25,633 - DEBUG - response_closed.started
+2026-03-25 12:45:25,633 - DEBUG - response_closed.complete
+2026-03-25 12:45:25,635 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/Computer-Science-R.Pugazendi.pdf', 'https://gacsalem7.ac.in/departments/computer-science/']
+2026-03-25 12:45:25,637 - DEBUG - Starting new HTTPS connection (1): gacsalem7.ac.in:443
+2026-03-25 12:45:27,852 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:45:30,976 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:45:30,980 - DEBUG - close.started
+2026-03-25 12:45:30,981 - DEBUG - close.complete
+2026-03-25 12:45:30,981 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:45:31,264 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFCFD3D0>
+2026-03-25 12:45:31,264 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:45:31,302 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFE02B70>
+2026-03-25 12:45:31,304 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:45:31,304 - DEBUG - send_request_headers.complete
+2026-03-25 12:45:31,305 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:45:31,306 - DEBUG - send_request_body.complete
+2026-03-25 12:45:31,306 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:45:36,748 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:15:36 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23d9-38ce-78cb-b173-dc9b9af96df8'), (b'x-kong-request-id', b'019d23d9-38ce-78cb-b173-dc9b9af96df8'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'28233'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2478684'), (b'x-ratelimit-tokens-query-cost', b'872'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'5142'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'5143'), (b'x-kong-proxy-latency', b'13'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c1ffa4d1aa91d-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:45:36,748 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:45:36,756 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:45:36,756 - DEBUG - receive_response_body.complete
+2026-03-25 12:45:36,756 - DEBUG - response_closed.started
+2026-03-25 12:45:36,756 - DEBUG - response_closed.complete
+2026-03-25 12:46:56,920 - INFO - Generating chatbot response for question: give me the brief details about him
+2026-03-25 12:46:56,921 - INFO - Reformulating question based on chat history...
+2026-03-25 12:46:56,927 - DEBUG - close.started
+2026-03-25 12:46:56,931 - DEBUG - close.complete
+2026-03-25 12:46:56,931 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:46:57,189 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFD67EF0>
+2026-03-25 12:46:57,189 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:46:57,381 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFB88530>
+2026-03-25 12:46:57,382 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:46:57,382 - DEBUG - send_request_headers.complete
+2026-03-25 12:46:57,382 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:46:57,383 - DEBUG - send_request_body.complete
+2026-03-25 12:46:57,383 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:46:58,439 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:16:58 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23da-890b-7f6a-a348-49e570798d22'), (b'x-kong-request-id', b'019d23da-890b-7f6a-a348-49e570798d22'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'39675'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2478345'), (b'x-ratelimit-tokens-query-cost', b'386'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'507'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'508'), (b'x-kong-proxy-latency', b'12'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c22144bd70bbe-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:46:58,439 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:46:58,440 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:46:58,440 - DEBUG - receive_response_body.complete
+2026-03-25 12:46:58,440 - DEBUG - response_closed.started
+2026-03-25 12:46:58,440 - DEBUG - response_closed.complete
+2026-03-25 12:46:58,441 - INFO - Original Question: give me the brief details about him
+2026-03-25 12:46:58,441 - INFO - Standalone Question: What are the brief details about Dr. R. Pugazendi?
+2026-03-25 12:46:58,441 - INFO - Fetching top 3 URLs for question: What are the brief details about Dr. R. Pugazendi?
+2026-03-25 12:46:58,444 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:46:58,445 - DEBUG - send_request_headers.complete
+2026-03-25 12:46:58,445 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:46:58,447 - DEBUG - send_request_body.complete
+2026-03-25 12:46:58,447 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:47:01,739 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:17:01 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23da-8e83-77fd-b191-448174fd1ee2'), (b'x-kong-request-id', b'019d23da-8e83-77fd-b191-448174fd1ee2'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'20075'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2457462'), (b'x-ratelimit-tokens-query-cost', b'20885'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'2650'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2651'), (b'x-kong-proxy-latency', b'8'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c221afaac0bbe-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:47:01,740 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:47:01,740 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:47:01,741 - DEBUG - receive_response_body.complete
+2026-03-25 12:47:01,741 - DEBUG - response_closed.started
+2026-03-25 12:47:01,741 - DEBUG - response_closed.complete
+2026-03-25 12:47:01,742 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/our_team/dr-r-pugazendi-assistant-professor/', 'https://gacsalem7.ac.in/departments/computer-science/', 'https://gacsalem7.ac.in/our_team/']
+2026-03-25 12:47:01,745 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:47:14,686 - DEBUG - https://gacsalem7.ac.in:443 "GET /our_team/dr-r-pugazendi-assistant-professor/ HTTP/1.1" 200 None
+2026-03-25 12:47:14,710 - INFO - Best matching image: [{'url': 'https://gacsalem7.ac.in/wp-content/uploads/2021/10/R.PUGAZENDI.jpg', 'alt': 'R.PUGAZENDI'}]
+2026-03-25 12:47:14,716 - DEBUG - close.started
+2026-03-25 12:47:14,716 - DEBUG - close.complete
+2026-03-25 12:47:14,716 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:47:14,761 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFDB0620>
+2026-03-25 12:47:14,761 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:47:15,022 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFDB05C0>
+2026-03-25 12:47:15,022 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:47:15,022 - DEBUG - send_request_headers.complete
+2026-03-25 12:47:15,022 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:47:15,022 - DEBUG - send_request_body.complete
+2026-03-25 12:47:15,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:47:18,988 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:17:19 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23da-cdf9-7803-8845-f7c0cf4f4bce'), (b'x-kong-request-id', b'019d23da-cdf9-7803-8845-f7c0cf4f4bce'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'25591'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2456772'), (b'x-ratelimit-tokens-query-cost', b'700'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'57'), (b'x-envoy-upstream-service-time', b'3540'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'3541'), (b'x-kong-proxy-latency', b'9'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c22828e388022-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:47:18,988 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:47:18,988 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:47:18,990 - DEBUG - receive_response_body.complete
+2026-03-25 12:47:18,990 - DEBUG - response_closed.started
+2026-03-25 12:47:18,990 - DEBUG - response_closed.complete
+2026-03-25 12:48:18,635 - INFO - Generating chatbot response for question: events completed in one month in our college
+2026-03-25 12:48:18,636 - INFO - Reformulating question based on chat history...
+2026-03-25 12:48:18,641 - DEBUG - close.started
+2026-03-25 12:48:18,643 - DEBUG - close.complete
+2026-03-25 12:48:18,644 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:48:18,966 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246FFB10170>
+2026-03-25 12:48:18,966 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:48:19,163 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000246801AE900>
+2026-03-25 12:48:19,163 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:19,165 - DEBUG - send_request_headers.complete
+2026-03-25 12:48:19,165 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:48:19,165 - DEBUG - send_request_body.complete
+2026-03-25 12:48:19,165 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:20,225 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:18:20 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23db-c87b-7192-bd0b-2399720f8c58'), (b'x-kong-request-id', b'019d23db-c87b-7192-bd0b-2399720f8c58'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'47373'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2456220'), (b'x-ratelimit-tokens-query-cost', b'588'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'554'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'555'), (b'x-kong-proxy-latency', b'14'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c241368302224-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:48:20,226 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:20,226 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:48:20,227 - DEBUG - receive_response_body.complete
+2026-03-25 12:48:20,227 - DEBUG - response_closed.started
+2026-03-25 12:48:20,227 - DEBUG - response_closed.complete
+2026-03-25 12:48:20,228 - INFO - Original Question: events completed in one month in our college
+2026-03-25 12:48:20,228 - INFO - Standalone Question: What events were completed in your college over the past month?
+2026-03-25 12:48:20,228 - INFO - Fetching top 3 URLs for question: What events were completed in your college over the past month?
+2026-03-25 12:48:20,232 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:20,233 - DEBUG - send_request_headers.complete
+2026-03-25 12:48:20,233 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:48:20,234 - DEBUG - send_request_body.complete
+2026-03-25 12:48:20,234 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:23,278 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:18:23 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23db-cd91-767c-a2ae-8587119835c6'), (b'x-kong-request-id', b'019d23db-cd91-767c-a2ae-8587119835c6'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'27671'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2435332'), (b'x-ratelimit-tokens-query-cost', b'20890'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'59'), (b'x-envoy-upstream-service-time', b'2498'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'2499'), (b'x-kong-proxy-latency', b'14'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c241a19d92224-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:48:23,279 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:23,279 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:48:23,279 - DEBUG - receive_response_body.complete
+2026-03-25 12:48:23,279 - DEBUG - response_closed.started
+2026-03-25 12:48:23,280 - DEBUG - response_closed.complete
+2026-03-25 12:48:23,281 - DEBUG - Top 3 URLs: ['https://gacsalem7.ac.in/ncc-first-year-cadets-inauguration/', 'https://gacsalem7.ac.in/ncc-activities-2015-16/', 'https://gacsalem7.ac.in/nss-activities-2016-17/']
+2026-03-25 12:48:23,283 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:48:24,834 - DEBUG - https://gacsalem7.ac.in:443 "GET /ncc-first-year-cadets-inauguration/ HTTP/1.1" 200 None
+2026-03-25 12:48:24,869 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:48:26,693 - DEBUG - https://gacsalem7.ac.in:443 "GET /ncc-activities-2015-16/ HTTP/1.1" 200 None
+2026-03-25 12:48:26,720 - DEBUG - Resetting dropped connection: gacsalem7.ac.in
+2026-03-25 12:48:28,303 - DEBUG - https://gacsalem7.ac.in:443 "GET /nss-activities-2016-17/ HTTP/1.1" 200 None
+2026-03-25 12:48:28,338 - INFO - Best matching image: []
+2026-03-25 12:48:28,342 - DEBUG - close.started
+2026-03-25 12:48:28,343 - DEBUG - close.complete
+2026-03-25 12:48:28,343 - DEBUG - connect_tcp.started host='api.mistral.ai' port=443 local_address=None timeout=120 socket_options=None
+2026-03-25 12:48:28,459 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024680095190>
+2026-03-25 12:48:28,460 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000246FFAAE8D0> server_hostname='api.mistral.ai' timeout=120
+2026-03-25 12:48:28,525 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000024680095220>
+2026-03-25 12:48:28,526 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:28,527 - DEBUG - send_request_headers.complete
+2026-03-25 12:48:28,527 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-25 12:48:28,527 - DEBUG - send_request_body.complete
+2026-03-25 12:48:28,528 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-25 12:48:37,941 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 25 Mar 2026 07:18:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'mistral-correlation-id', b'019d23db-ed0b-7fc0-88be-207d20ed7ce5'), (b'x-kong-request-id', b'019d23db-ed0b-7fc0-88be-207d20ed7ce5'), (b'x-ratelimit-limit-tokens-minute', b'50000'), (b'x-ratelimit-remaining-tokens-minute', b'29214'), (b'x-ratelimit-limit-tokens-month', b'4000000'), (b'x-ratelimit-remaining-tokens-month', b'2431696'), (b'x-ratelimit-tokens-query-cost', b'3644'), (b'x-ratelimit-limit-req-minute', b'60'), (b'x-ratelimit-remaining-req-minute', b'58'), (b'x-envoy-upstream-service-time', b'8876'), (b'Server', b'cloudflare'), (b'access-control-allow-origin', b'*'), (b'x-kong-upstream-latency', b'8877'), (b'x-kong-proxy-latency', b'12'), (b'cf-cache-status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Strict-Transport-Security', b'max-age=15552000; includeSubDomains; preload'), (b'Content-Encoding', b'gzip'), (b'CF-RAY', b'9e1c244decb57637-MAA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2026-03-25 12:48:37,942 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:37,942 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-25 12:48:37,943 - DEBUG - receive_response_body.complete
+2026-03-25 12:48:37,943 - DEBUG - response_closed.started
+2026-03-25 12:48:37,943 - DEBUG - response_closed.complete
